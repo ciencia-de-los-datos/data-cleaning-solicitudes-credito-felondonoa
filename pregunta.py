@@ -16,5 +16,6 @@ def clean_data():
     #
     # Inserte su código aquí
     #
+    df = pd.read_csv("solicitudes_credito.csv", sep=";", decimal=",")
 
     return df
